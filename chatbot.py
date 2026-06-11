@@ -16,7 +16,7 @@ with st.sidebar:
 
     model_name = st.selectbox(
         "모델 선택",
-        ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"],
+        ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash-latest", "gemini-1.5-pro-latest"],
         index=0,
     )
 
